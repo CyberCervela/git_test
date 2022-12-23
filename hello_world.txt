@@ -1,1 +1,3 @@
 Adding some random text here to test the "git add" feature.
+
+Let's make another commit to play with the workflow one last time in this lesson.
