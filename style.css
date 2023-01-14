@@ -34,6 +34,15 @@ div {
     border: 5px solid blue;
 }
 
+.box2 {
+    background-color: cornflowerblue;
+    height: auto;
+    display: flex;
+    padding: 4px 4px;
+    margin: 10px;
+    border: 5px solid blue;
+}
+
 .child2 {
     background-color: rgba(233, 104, 130, 0.644);
     height: auto;
@@ -59,5 +68,9 @@ div {
 }
 
 .box1 .child {
+    display: flex;
+}
+
+.box2 .child {
     display: flex;
 }
