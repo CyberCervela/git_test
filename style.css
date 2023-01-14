@@ -1,0 +1,63 @@
+/* * {
+    background-color:antiquewhite;
+    box-sizing: border-box;
+    margin: auto;
+} */
+
+html, body {
+    background-color: whitesmoke;
+    margin: 10px;
+}
+
+div {
+    background-color:rgb(234, 147, 147);
+    height: 90px;
+    border: 1px solid rgb(29, 29, 29);
+    margin: 10px;
+    flex: 1;
+}
+
+.container {
+    background-color:rgb(191, 222, 160);
+    height: auto;
+    border: 5px solid rgb(15, 178, 15);
+    padding: 16px 8px;
+    margin: 10px;
+}
+
+.box1 {
+    background-color: cornflowerblue;
+    height: auto;
+    display: flex;
+    padding: 16px 8px;
+    margin: 10px;
+    border: 5px solid blue;
+}
+
+.child2 {
+    background-color: rgba(233, 104, 130, 0.644);
+    height: auto;
+    margin-top: 10px;
+    border: 5px solid red;
+
+}
+
+.child3 {
+    background-color: rgb(208, 203, 231);
+    height: auto;
+    margin-top: 10px;
+    border: 5px solid rgb(94, 87, 141);
+
+}
+
+.child {
+    background-color: rgb(246, 178, 151);
+    height: 84px;
+    margin: 10px;
+    border: 5px solid salmon;
+
+}
+
+.box1 .child {
+    display: flex;
+}
