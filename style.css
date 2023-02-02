@@ -25,20 +25,11 @@ div {
     margin: 10px;
 }
 
-.box1 {
+.box {
     background-color: cornflowerblue;
     height: auto;
     display: flex;
     padding: 16px 8px;
-    margin: 10px;
-    border: 5px solid blue;
-}
-
-.box2 {
-    background-color: cornflowerblue;
-    height: auto;
-    display: flex;
-    padding: 4px 4px;
     margin: 10px;
     border: 5px solid blue;
 }
@@ -64,13 +55,11 @@ div {
     height: 84px;
     margin: 10px;
     border: 5px solid salmon;
+    display: flex;
 
 }
 
-.box1 .child {
+.cointainer .box {
     display: flex;
 }
 
-.box2 .child {
-    display: flex;
-}
